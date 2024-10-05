@@ -1,0 +1,12 @@
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\bin\Debug\net7.0\Negocio.deps.json
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\bin\Debug\net7.0\Negocio.dll
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\bin\Debug\net7.0\Negocio.pdb
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\obj\Debug\net7.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\obj\Debug\net7.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\obj\Debug\net7.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\obj\Debug\net7.0\Negocio.AssemblyInfo.cs
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\obj\Debug\net7.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\obj\Debug\net7.0\Negocio.dll
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\obj\Debug\net7.0\refint\Negocio.dll
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\obj\Debug\net7.0\Negocio.pdb
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\Negocio\obj\Debug\net7.0\ref\Negocio.dll
