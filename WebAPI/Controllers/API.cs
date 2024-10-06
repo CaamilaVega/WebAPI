@@ -11,16 +11,25 @@ namespace WebAPI.Controllers
     {
         
         [HttpGet]
-        public List<Datos> Get()
+        public ActionResult< List<Datos>> Get()
         {
-            return Datos.datosList;
+            return Ok( Datos.datosList);
         }
         
         [HttpGet("{id}")]
-        public Datos GetDatos(int id)
-        {
 
-            return Datos.datosList.FirstOrDefault(d=>d.Id==id);
+        public ActionResult< Datos >GetDatos(int id)
+        {
+            if(id==0)
+            {
+                return BadRequest();
+            }
+            var dato= Datos.datosList.FirstOrDefault(d => d.Id == id);
+            if(dato==null)
+            {
+                return NotFound();
+            }
+            return Ok(dato);
         }
 
         // POST api/<API>
