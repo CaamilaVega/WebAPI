@@ -57,14 +57,40 @@ namespace WebAPI.Controllers
 
         // PUT api/<API>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public IActionResult PutDatos(int id, [FromBody] Datos datosPut)
         {
+            if(datosPut==null || id != datosPut.Id)
+            {
+                return BadRequest();
+            }
+            var datos = ProductosAPI.datosList.FirstOrDefault(d => d.Id == id);
+            datos.title = datosPut.title;
+            datos.price = datosPut.price;
+            datos.category=datosPut.category;
+
+            return NoContent();
+
         }
 
-        // DELETE api/<API>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(404)]
+        public IActionResult DeleteDatos(int id)
         {
+            if (id == 0)
+            {
+                return BadRequest();
+            }
+            var datos=ProductosAPI.datosList.FirstOrDefault(d=>d.Id == id);
+            if (datos == null)
+            {
+                return NotFound();
+            }
+            ProductosAPI.datosList.Remove(datos);
+            return NoContent();
         }
     }
 }

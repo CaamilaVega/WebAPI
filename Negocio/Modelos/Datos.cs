@@ -12,5 +12,7 @@ namespace Negocio.Modelos
         public string title { get; set; }
         public int price { get; set; }
 
+        public string category { get; set; }
+
     }
 }

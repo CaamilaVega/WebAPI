@@ -10,8 +10,8 @@ namespace Negocio.Modelos
     {
         public static List<Datos> datosList = new List<Datos>()
         {
-            new Datos{Id =1,title="Mesa",price =200 },
-            new Datos{Id =2,title="Silla",price =100 }
+            new Datos{Id =1,title="Mesa",price =200,category="Madera" },
+            new Datos{Id =2,title="Silla",price =100,category="Plastico" }
         };
     }
 }
