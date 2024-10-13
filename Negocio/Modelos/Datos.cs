@@ -11,10 +11,6 @@ namespace Negocio.Modelos
         public int Id { get; set; }
         public string title { get; set; }
         public int price { get; set; }
-        //public static List<Producto> datosList = new List<Producto>
-        //{
-        //    new Datos {Id=1,title="Mesa",price=10000},
-        //    new Datos {Id=2,title="Silla",price=6500}
-        //};
+
     }
 }

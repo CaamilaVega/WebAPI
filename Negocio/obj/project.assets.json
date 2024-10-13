@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\Negocio\\Negocio.csproj",
+      "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\Negocio\\Negocio.csproj",
       "projectName": "Negocio",
-      "projectPath": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\Negocio\\Negocio.csproj",
+      "projectPath": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\Negocio\\Negocio.csproj",
       "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\Negocio\\obj\\",
+      "outputPath": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\Negocio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",

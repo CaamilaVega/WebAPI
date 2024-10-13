@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Negocio.Modelos;
-using System.Security.Cryptography.X509Certificates;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,7 +14,7 @@ namespace WebAPI.Controllers
         [ProducesResponseType(200)]
         public ActionResult< List<Datos>> Get()
         {
-            return Ok(ProductosAPI.datosList);
+            return Ok( ProductosAPI.datosList);
         }
         
         [HttpGet("{id}")]
@@ -28,15 +27,14 @@ namespace WebAPI.Controllers
             {
                 return BadRequest();
             }
-            var producto= ProductosAPI.datosList.FirstOrDefault(p => p.Id == id);
-            if(producto==null)
+            var dato= ProductosAPI.datosList.FirstOrDefault(d => d.Id == id);
+            if(dato==null)
             {
                 return NotFound();
             }
-            return Ok(producto);
+            return Ok(dato);
         }
 
-        // POST api/<API>
         [HttpPost]
         [ProducesResponseType(200)]
         [ProducesResponseType(400)]
@@ -47,13 +45,14 @@ namespace WebAPI.Controllers
             {
                 return BadRequest(datosPost);
             }
-            if(datosPost.Id>0)
+            if (datosPost.Id > 0)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError);
             }
-            datosPost.Id=ProductosAPI.datosList.OrderByDescending(v=>v.Id).FirstOrDefault().Id +1;
+            datosPost.Id = ProductosAPI.datosList.OrderByDescending(v => v.Id).FirstOrDefault().Id + 1;
             ProductosAPI.datosList.Add(datosPost);
             return Ok(datosPost);
+
         }
 
         // PUT api/<API>/5
