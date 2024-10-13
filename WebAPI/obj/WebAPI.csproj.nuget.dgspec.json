@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\Negocio\\Negocio.csproj": {
+    "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\Negocio\\Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\Negocio\\Negocio.csproj",
+        "projectUniqueName": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\Negocio\\Negocio.csproj",
         "projectName": "Negocio",
-        "projectPath": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\Negocio\\Negocio.csproj",
+        "projectPath": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\Negocio\\Negocio.csproj",
         "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\Negocio\\obj\\",
+        "outputPath": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\Negocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\camil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\WebAPI\\obj\\",
+        "outputPath": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\camil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\Negocio\\Negocio.csproj": {
-                "projectPath": "C:\\Users\\camil\\OneDrive\\Escritorio\\Repo Programacion3\\WebAPI\\Negocio\\Negocio.csproj"
+              "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\Negocio\\Negocio.csproj": {
+                "projectPath": "C:\\Users\\camil\\Downloads\\WebAPI-main\\WebAPI-main\\Negocio\\Negocio.csproj"
               }
             }
           }
