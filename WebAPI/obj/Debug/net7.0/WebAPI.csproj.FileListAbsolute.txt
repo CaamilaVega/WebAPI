@@ -33,3 +33,7 @@ C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\WebAPI\obj\Debug\ne
 C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\WebAPI\obj\Debug\net7.0\WebAPI.pdb
 C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\WebAPI\obj\Debug\net7.0\WebAPI.genruntimeconfig.cache
 C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\WebAPI\obj\Debug\net7.0\ref\WebAPI.dll
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\camil\OneDrive\Escritorio\Repo Programacion3\WebAPI\WebAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

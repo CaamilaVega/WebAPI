@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.AspNetCore.Mvc;
 using Negocio.Modelos;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -9,11 +10,18 @@ namespace WebAPI.Controllers
     [ApiController]
     public class API : ControllerBase
     {
+        private readonly ILogger<API> _logger;
+
+        public API (ILogger<API> logger)
+        {
+            _logger = logger;
+        }
         
         [HttpGet]
         [ProducesResponseType(200)]
         public ActionResult< List<Datos>> Get()
         {
+            _logger.LogInformation("SE MUESTRAN TODOS LOS PRODUCTOS");
             return Ok( ProductosAPI.datosList);
         }
         
@@ -25,6 +33,7 @@ namespace WebAPI.Controllers
         {
             if(id==0)
             {
+                _logger.LogError("ERRO EN EL ID INGRESADO: "+id);
                 return BadRequest();
             }
             var dato= ProductosAPI.datosList.FirstOrDefault(d => d.Id == id);
@@ -73,6 +82,28 @@ namespace WebAPI.Controllers
             return NoContent();
 
         }
+
+        //[HttpPatch("{id}")]
+        //[ProducesResponseType(204)]
+        //[ProducesResponseType(400)]
+        //public IActionResult PatchDatos(int id, JsonPatchDocument<Datos> datosPatch)
+        //{
+        //    if (datosPatch == null || id == 0)
+        //    {
+        //        return BadRequest();
+        //    }
+        //    var dat = ProductosAPI.datosList.FirstOrDefault(d => d.Id == id);
+        //    datosPatch.ApplyTo(dat, ModelState);
+
+        //    if (!ModelState.IsValid)
+        //    {
+        //        return BadRequest(ModelState);
+        //    }
+
+        //    return NoContent();
+
+        //}
+
 
         [HttpDelete("{id}")]
         [ProducesResponseType(204)]
